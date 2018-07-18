@@ -1,0 +1,39 @@
+
+.first{
+  display: flex;
+  flex-direction: column;
+  background-color: #ded1e3 ;
+  height: 800px;
+}
+.photo-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.photo-text{
+  display: flex;
+  width: 550px;
+  height: 550px;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.myphoto{
+  width: 550px;
+  height: 550px;
+
+
+}
+.menu{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  margin-top: 0;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+
+}
