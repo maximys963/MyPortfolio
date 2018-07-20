@@ -1,0 +1,107 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    background-color: #ded1e3 ;
+    height: 700px;
+}
+.photo-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.photo-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+
+}
+.photo-text{
+    display: flex;
+    height: 100px;
+    width: 80%;
+    font-size: 35px;
+    align-items: center;
+    justify-content: flex-start;
+    color:  #252226;
+    margin-top: 0;
+    margin-bottom:0;
+}
+.about-me{
+    color: dimgray;
+    text-align: left;
+    font-size: 17px;
+    width: 80%;
+}
+.myphoto{
+    width: 45%;
+    height:45%;
+    flex-shrink: inherit;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    height: 50px;
+}
+.menu > li{
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width:15%;
+
+
+}
+.menu > li:hover{
+background: #897e8d;
+    cursor: pointer
+}
+.menu > li:active{
+background: #514b53;
+    cursor: pointer
+}
+.menu > li > a {
+    vertical-align: middle;
+    color: white;
+    opacity: 0.9;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-net{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    opacity: 0.9;
+}
+.social-net:hover{
+  opacity: 0.6;
+}
+.social-net:active{
+    opacity: 1;
+}
+
+.socials-container{
+    width: 20%
+}
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252226;
+    margin-top: 0;
+    height: 50px;
+}

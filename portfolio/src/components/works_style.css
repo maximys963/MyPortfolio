@@ -1,0 +1,46 @@
+.third {
+    background-color: #f0ecf2;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.third > h1{
+   color: #252226;
+    margin-top: 5%;
+
+}
+.project-icon{
+width: 80%;
+    height: 80%;
+}
+.works-container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.works-container > a{
+    width:21%;
+    height: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+
+}
+.works-container > a:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background: lightyellow;
+    text-decoration: none !important;
+
+}
+.works-container > a > p {
+    font-size: 24px;
+    color: #252226;
+
+}

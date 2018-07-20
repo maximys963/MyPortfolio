@@ -1,0 +1,79 @@
+@keyframes fadeInFromNone {
+    0% {
+
+        opacity: 0.3;
+    }
+    50% {
+
+        opacity: 0.9;
+    }
+    100% {
+
+        opacity: 0.3;
+    }
+}
+
+.second{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #252226;
+    height: 500px;
+    align-items: center;
+}
+.react-logo{
+    width: 500px;
+    height:500px;
+    opacity: 0.6;
+    margin-left: 10%;
+
+}
+.skills{
+    margin-left: 5%;
+    width: 300px;
+}
+.skills-points{
+
+}
+.skills-title{
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+
+.green-dot{
+    animation: fadeInFromNone 4s ease-out infinite;
+}
+
+.html-points,
+.js-points,
+.react-points,
+.reactnative-points,
+.redux-points,
+.webpack-points,
+.git-points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.html-points > p,
+.js-points > p,
+.react-points > p,
+.reactnative-points > p,
+.redux-points > p,
+.webpack-points > p,
+.git-points > p{
+    color: white;
+    opacity: 0.8;
+    margin-right: 15%;
+}
