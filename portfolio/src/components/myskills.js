@@ -5,7 +5,7 @@ import './skill_style.css'
 class MySkills extends Component{
     render(){
         return(
-            <div className="second">
+            <div className="second" id="myskills">
                 <img src={require('.././images/react2.svg')} alt="react logo" className="react-logo"/>
                 <div className="skills">
                     <h1 className="skills-title">My skills</h1>

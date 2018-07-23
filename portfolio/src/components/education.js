@@ -5,7 +5,7 @@ import './education_style.css'
 class Education extends Component{
     render(){
         return(
-            <div className="fouth">
+            <div className="fouth" id="education">
                 <div>
                     <img className="plane" src={require(".././icons/plane.svg")} alt=""/>
                 </div>
@@ -21,5 +21,4 @@ class Education extends Component{
         )
     }
 }
-
 export default Education;

@@ -9,10 +9,10 @@ class AboutMe extends Component{
                 <div className='menu-container'>
                 <ul className='menu'>
                     <li><a>About me</a></li>
-                    <li><a>My skills</a></li>
-                    <li><a>My experience</a></li>
-                    <li><a>Education</a></li>
-                    <li><a>Motivation section</a></li>
+                    <li><a href="#myskills">My skills</a></li>
+                    <li><a href="#experience">My experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#motivation">Motivation section</a></li>
                 </ul>
                     <ul className="socials">
                         <a href='https://www.facebook.com/maxym.panasenko'><img className="social-net" src={require(".././icons/facebook-logo.svg")} alt="facebook"/></a>

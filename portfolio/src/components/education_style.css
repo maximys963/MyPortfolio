@@ -21,9 +21,11 @@
 .education-info > p {
     color: white;
     opacity: 0.8;
+    font-size: 16px;
 }
 .education-info > h1 {
     color: white;
     opacity: 0.8;
     align-self: center;
+    margin-top: 0;
 }
